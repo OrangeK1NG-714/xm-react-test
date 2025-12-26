@@ -1,5 +1,7 @@
+import UseDeferredValue from "./components/useDeferredValue"
 import UseImmer from "./components/useImmer"
 import UseReducer from "./components/useReducer"
+import UseTransition from "./components/useTransition"
 import './index.css'
 function App() {
 
@@ -13,6 +15,14 @@ function App() {
          <div>
           <h1>useImmer实践</h1>
           <UseImmer />
+        </div>
+        <div>
+          <h1>useTransition实践</h1>
+          <UseTransition />
+        </div>
+         <div>
+          <h1>useDeferredValue实践</h1>
+          <UseDeferredValue />
         </div>
       </div>
     </>
