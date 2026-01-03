@@ -1,3 +1,7 @@
 .useReducer1{
     border: 1px solid lightcoral;
 }
+.useDeferredValue1{
+    width: 100px;
+    height: 100px;
+}
