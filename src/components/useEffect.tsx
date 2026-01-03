@@ -2,6 +2,7 @@ const UseEffect=()=>{
     return (
         <div>
             UseEffect
+            
         </div>
     )
 }
