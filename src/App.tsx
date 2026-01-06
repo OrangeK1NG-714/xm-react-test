@@ -1,8 +1,11 @@
 // import UseDeferredValue from "./components/useDeferredValue"
 import UseEffect from "./components/useEffect"
 import UseImmer from "./components/useImmer"
+import UseImperativeHandle from "./components/useImperativeHandle"
 import UseLayoutEffect from "./components/useLayoutEffect"
 import UseReducer from "./components/useReducer"
+import UseRef from "./components/useRef"
+import UseRefInterval from "./components/useRefInterval"
 import UseTransition from "./components/useTransition"
 import './index.css'
 function App() {
@@ -33,6 +36,18 @@ function App() {
          <div>
           <h1>useLayoutEffect实践</h1>
           <UseLayoutEffect />
+        </div>
+         <div>
+          <h1>useRef实践</h1>
+          <UseRef />
+        </div>
+         <div>
+          <h1>useRefInterval实践</h1>
+          <UseRefInterval />
+        </div>
+        <div>
+          <h1>useImperativeHandle实践</h1>
+          <UseImperativeHandle />
         </div>
       </div>
     </>
