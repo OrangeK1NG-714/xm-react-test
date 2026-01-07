@@ -1,5 +1,6 @@
 // import UseDeferredValue from "./components/useDeferredValue"
 import ImperativeHandle from "./components/practice/ImperativeHandle"
+import UseContext from "./components/useContext"
 import UseEffect from "./components/useEffect"
 import UseImmer from "./components/useImmer"
 import UseImperativeHandle from "./components/useImperativeHandle"
@@ -53,6 +54,10 @@ function App() {
         <div style={{backgroundColor:'lightcoral'}}>
           <h1>useImperativeHandle实战</h1>
           <ImperativeHandle />
+        </div>
+           <div>
+          <h1>UseContext实践</h1>
+          <UseContext />
         </div>
       </div>
     </>

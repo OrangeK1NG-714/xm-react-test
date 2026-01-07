@@ -62,6 +62,7 @@ const ImperativeHandle = () => {
             <Child ref={childRef} />
             <button onClick={showChildInfo}>获取表单组件内容</button>
             <button onClick={validate}>手动校验子组件</button>
+            <button onClick={()=>childRef.current?.reSet()}>重置</button>
         </div>
     )
 }
